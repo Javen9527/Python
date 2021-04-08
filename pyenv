@@ -1,0 +1,8 @@
+管理多个环境pyenv
+
+使用pyenv local python版本后使用python -V为什么显示没有切换成功？
+
+因为没有将pyenv配置到环境变量中：
+1. PYENV_ROOT
+2. PATH=$PATH:PYENV_ROOT/bin
+3.最后的判断。。。查询官网吧。
